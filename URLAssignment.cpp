@@ -56,9 +56,9 @@ class URL
 {
     public:
     string url = "";
-    URL(string url)
+    URL(string source)
     {
-        url = url;
+        url = source;
 
     }
     string getContents()
